@@ -1,0 +1,97 @@
+<!DOCTYPE html><!--esto es una etiqueta abierta inidca que es html5-->
+<!--esto es un comentario-->
+<html lang="es"><!--lang es el idioma-->
+    <head> <!--head es la cabecera de las configuraciones del sitio web-->
+        <meta charset="UTF-8"><!--caracteres especiales del idioma español-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--responsive mobile -->
+        <script src="https://kit.fontawesome.com/43c71ef035.js" crossorigin="anonymous"></script><!--iconos-->
+        <title>CoderHouse - Concesionaria </title>
+        <!--favicon-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <!--estilos de css-->
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+    <!--en el body va el contenido de nuestra pagina web-->
+    <body>
+        <header>
+            <h1 class="titulo">Carmania</h1>
+            <nav>
+                <!--listas desordenadas
+                    que son?
+                    sirven para agrupar contenido que tiene sentido que este junto-->
+                <ul>
+                    <li><a href="../index.html">Incio</a></li>
+                    <!--enlaces relativos, dependen donde estoy parado en la pagina-->
+                    <li><a href="./catalogo.html">catalogo</a></li>
+                    <li><a href="./seguros.html">seguros</a></li>
+                    <li><a href="./nosotros.html">nosotros</a></li>
+                    <li><a href="./sumate.html">sumate</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <h2>Únete a nuestro equipo</h2>
+            <p>¿Estás interesado en formar parte de Carmania? Completa el formulario a continuación y nos pondremos en contacto contigo pronto.</p>
+            
+            <div class="formulario">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <input type="tel" placeholder="Teléfono">
+                <select>
+                    <option value="" disabled selected>Selecciona un puesto</option>
+                    <option value="vendedor">Vendedor</option>
+                    <option value="mecanico">Mecánico</option>
+                    <option value="administrativo">Administrativo</option>
+                </select>
+                <textarea placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </div>
+            
+            
+        
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2W284Ds95kc?si=A-_4Wh8vx1y01M0e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        
+            <h3>¿Por qué elegirnos?</h3>
+            <p>En Carmania nos destacamos por nuestra atención al cliente excepcional, nuestra amplia selección de vehículos de calidad y nuestros servicios integrales que cubren todas tus necesidades automotrices.</p>
+            <p>Visítanos hoy y descubre por qué somos tu mejor opción para encontrar el auto de tus sueños.</p>
+        </main>
+        
+        
+        <footer>
+            <section>
+                <h3>Conocenos mas en nuestras redes sociales</h3>
+                <!--href con enlace absoluto, es una direccion completa de internet-->
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/?lang=es">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                
+            </section>
+            <section>
+                <h3>Donde nos podes encontrar</h3>
+                <p>Av Santa Fe 3212</p>
+                <p>Barrio Palermo</p>
+                <p>Ciudad Autonoma de Buenos Aires - Argentina</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5963080292618!2d-58.41299152458433!3d-34.58907987295959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83c65c801d%3A0x10cc6307c40f28e1!2sAv.%20Sta.%20Fe%203212%2C%20C1011%20CABA!5e0!3m2!1ses!2sar!4v1707079832191!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <h3>Contacto</h3>
+                <p>11-8932-7898</p>
+                <p>ventas@concesionarials.com</p>
+            </section>
+            
+
+
+        </footer>
+    
+    </body>
+</html>

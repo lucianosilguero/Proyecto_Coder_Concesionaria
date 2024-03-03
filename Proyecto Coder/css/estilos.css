@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto : wght@300,400,500,600,700,900&family=Ubuntu&display=swap');
+/*Esta seccion es de los estilos de la pantalla del index*/
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Estilos para la sección de presentación */
+.presentacion {
+    background-color: #fff;
+}
+
+.presentacion h2 {
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    margin-bottom: 30px;
+}
+.servicios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para la sección de servicios destacados */
+.destacados {
+    background-color: #f9f9f9;
+}
+
+.destacados h2 {
+    margin-bottom: 20px;
+}
+
+.servicio {
+    margin-bottom: 40px;
+}
+
+.servicio img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: #fff;
+}
+
+.contacto h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/*Esta seccion es de los estilos de la pantalla del index*/
+/*Esta seccion es de los estilos de la pantalla de catalogo*/
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif; /* Usamos Roboto como fuente principal para todo el cuerpo de la página */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo para toda la página */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+    font-family: 'Ubuntu', sans-serif; /* Usamos Ubuntu como fuente para el encabezado */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal de la página */
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Cambiamos la dirección del flexbox a columna */
+    align-items: center; /* Centramos los elementos horizontalmente */
+}
+
+/* Estilos para el título "Catálogo" */
+main h1 {
+    margin-top: 40px; /* Añadimos margen superior para separar el título del resto del contenido */
+    font-size: 2em; /* Tamaño del título */
+    color: #333; /* Color del título */
+}
+
+/* Estilos para el contenedor de las marcas */
+.marcas {
+    display: flex;
+    justify-content: space-between; /* Distribuir las marcas en todo el ancho */
+    margin-top: 40px; /* Ajustar el espacio entre las marcas */
+}
+
+/* Estilos para cada contenedor de marca */
+.marca {
+    font-family: 'Roboto', sans-serif; /* Usamos Roboto como fuente para el contenido de cada marca */
+    flex: 0 0 calc(30% - 20px); /* Ancho fijo para cada contenedor de marca */
+    background-color: #fff; /* Color de fondo para cada marca */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: all 0.3s ease; /* Transición suave */
+    display: flex; /* Aplicamos flexbox para los modelos */
+    flex-direction: column; /* Organizamos los modelos en columna */
+    align-items: center; /* Centramos los modelos horizontalmente */
+}
+
+/* Estilos para los modelos de cada marca */
+.modelo {
+    margin-bottom: 20px; /* Espacio entre los modelos */
+    text-align: center; /* Alineamos el texto al centro */
+}
+
+.modelo img {
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Altura automática */
+    margin-bottom: 10px; /* Espacio inferior de la imagen */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan a una nueva línea si es necesario */
+}
+
+footer section {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Espacio entre las secciones en el pie de página */
+}
+
+footer section:last-child {
+    margin-right: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+/*Esta seccion es de los estilos de la pantalla de catalogo*/
+
+/*Esta seccion es de los estilos de la pantalla de la pantalla de seguros*/
+/* Estilos para la pantalla de seguros */
+
+.seguros-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.seguro {
+    flex: 0 1 30%; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.seguro img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.seguro h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.seguro p {
+    margin-top: 10px;
+}
+/* Estilos para la pantalla de seguros */
+
+/* Estilos para la pantalla de nosotros */
+/* Estilos para la pantalla de Nosotros */
+
+.nosotros-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.video {
+    flex: 0 1 45%;
+    margin-right: 20px;
+}
+
+.texto {
+    flex: 0 1 45%;
+}
+
+.texto h2 {
+    margin-top: 20px;
+}
+
+.texto p {
+    margin-top: 10px;
+}
+/* Estilos para la pantalla de nosotros */
+
+
+/* Estilos para la pantalla de Sumate */
+/* Estilos para el formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
+/* Estilos para el formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* Bootstrap */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,600,700,900&family=Ubuntu&display=swap');
+
+/* Estilos personalizados */
+body {
+    font-family: 'Roboto', sans-serif; /* Utilizando la fuente Roboto para todo el cuerpo del documento */
+    background-color: #f4f4f4; /* Color de fondo */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+}
+
+.container {
+    width: 80%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    margin-top: 40px;
+    font-size: 2em;
+    color: #333;
+}
+
+.marcas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.marca {
+    font-family: 'Roboto', sans-serif;
+    flex: 0 0 calc(30% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modelo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modelo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer section {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer section:last-child {
+    margin-right: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente principal */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%; /* Ancho máximo del contenedor */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espacio interno */
+    text-align: center; /* Alineación del texto */
+}
+
+.titulo {
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+nav ul {
+    list-style-type: none; /* Quitar viñetas de la lista */
+    padding: 0; /* Eliminar relleno */
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos de navegación en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+}
+
+/* Estilos del contenido principal */
+main h1 {
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilos de las marcas y modelos */
+.marca {
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+.modelo {
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Alineación del texto */
+}
+
+.modelo img {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espacio interno */
+    text-align: center; /* Alineación del texto */
+}
+
+
